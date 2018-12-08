@@ -37,16 +37,5 @@ public class MqttProvider {
 		void sendGreeting(Greeting data);
 	}
 
-	@Bean
-	@ServiceActivator(inputChannel = "mqttOutboundChannel")
-	public MessageHandler mqttOutbound() {
-		// MqttPahoMessageHandler messageHandler = new
-		// MqttPahoMessageHandler(clientId, client);
-		// messageHandler.setAsync(true);
-		// messageHandler.setDefaultTopic(topic);
-		// messageHandler.setDefaultQos(2);
-		SimpleMqttPahoMessageHandler messageHandler = client.cteateSimpleMqttPahoMessageHandler(clientId, topic);
-		return messageHandler;
-	}
 
 }

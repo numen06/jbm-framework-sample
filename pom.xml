@@ -18,7 +18,6 @@
         <module>jbm-framework-sample-schedule</module>
         <module>jbm-framework-sample-mqtt</module>
         <module>jbm-framework-sample-thrift</module>
-        <module>jbm-framework-sample-shop</module>
         <module>jbm-framework-sample-ai</module>
         <module>jbm-framework-sample-leveldb</module>
         <module>jbm-framework-sample-img</module>
