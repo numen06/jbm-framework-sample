@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.jbm</groupId>
-        <artifactId>jbm-framework</artifactId>
+        <artifactId>jbm-framework-dependencies</artifactId>
         <version>5.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>jbm-framework-sample</artifactId>
@@ -12,12 +12,9 @@
         <module>jbm-framework-sample-mweb</module>
         <module>jbm-framework-sample-logger</module>
         <module>jbm-framework-sample-micro-service</module>
-        <module>jbm-framework-sample-wechat</module>
         <module>jbm-framework-sample-restapi</module>
-        <module>jbm-framework-sample-ui</module>
         <module>jbm-framework-sample-pr</module>
         <module>jbm-framework-sample-swagger</module>
-        <module>jbm-framework-sample-mui</module>
         <module>jbm-framework-sample-schedule</module>
         <module>jbm-framework-sample-mqtt</module>
         <module>jbm-framework-sample-thrift</module>
@@ -37,6 +34,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
