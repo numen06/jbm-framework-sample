@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>jbm-framework-sample-mweb</module>
+        <module>jbm-framework-sample-beetl</module>
         <module>jbm-framework-sample-logger</module>
         <module>jbm-framework-sample-micro-service</module>
         <module>jbm-framework-sample-restapi</module>
@@ -45,13 +46,6 @@
         <plugins>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
