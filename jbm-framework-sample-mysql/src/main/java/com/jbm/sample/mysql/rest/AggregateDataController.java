@@ -1,4 +1,4 @@
-package com.jbm.sample.rest;
+package com.jbm.sample.mysql.rest;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jbm.framework.metadata.bean.ResultForm;
 import com.jbm.framework.mvc.form.JsonRequestBody;
 import com.jbm.framework.mvc.web.MasterDataCollection;
-import com.jbm.sample.entity.AggregateData;
+import com.jbm.sample.mysql.entity.AggregateData;
 import com.jbm.sample.mysql.service.AggregateDataService;
 
 @RestController

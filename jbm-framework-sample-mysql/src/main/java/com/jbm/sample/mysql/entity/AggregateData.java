@@ -1,4 +1,4 @@
-package com.jbm.sample.entity;
+package com.jbm.sample.mysql.entity;
 
 import java.util.Date;
 

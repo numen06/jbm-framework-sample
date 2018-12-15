@@ -5,7 +5,7 @@ import java.util.Map;
 import com.jbm.framework.masterdata.service.IMasterDataService;
 import com.jbm.framework.masterdata.usage.paging.DataPaging;
 import com.jbm.framework.masterdata.usage.paging.PageForm;
-import com.jbm.sample.entity.AggregateData;
+import com.jbm.sample.mysql.entity.AggregateData;
 
 /**
  * @version version1.0

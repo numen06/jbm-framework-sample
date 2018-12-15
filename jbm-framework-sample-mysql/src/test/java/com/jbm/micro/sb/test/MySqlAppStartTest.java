@@ -3,7 +3,7 @@ package com.jbm.micro.sb.test;
 import com.alibaba.fastjson.JSONObject;
 import com.jbm.framework.masterdata.usage.paging.PageForm;
 import com.jbm.framework.mvc.web.SpringBootWebTest;
-import com.jbm.sample.entity.AggregateData;
+import com.jbm.sample.mysql.entity.AggregateData;
 import com.jbm.sample.mysql.MySqlAppStart;
 import org.assertj.core.util.Lists;
 import org.junit.Test;

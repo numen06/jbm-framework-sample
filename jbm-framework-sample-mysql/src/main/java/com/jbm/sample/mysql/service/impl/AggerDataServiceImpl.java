@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import com.jbm.framework.masterdata.usage.paging.DataPaging;
 import com.jbm.framework.masterdata.usage.paging.PageForm;
 import com.jbm.framework.service.mybatis.MasterDataServiceImpl;
-import com.jbm.sample.entity.AggregateData;
+import com.jbm.sample.mysql.entity.AggregateData;
 import com.jbm.sample.mysql.service.AggregateDataService;
 
 /**

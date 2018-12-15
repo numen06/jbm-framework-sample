@@ -8,9 +8,8 @@
 	<artifactId>jbm-framework-sample-beetl</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>com.ibeetl</groupId>
-			<artifactId>beetl</artifactId>
-			<version>2.7.15</version>
+			<groupId>com.jbm</groupId>
+			<artifactId>jbm-framework-autoconfigure-beetl</artifactId>
 		</dependency>
 	</dependencies>
 </project>

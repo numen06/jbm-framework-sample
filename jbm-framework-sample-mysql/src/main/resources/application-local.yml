@@ -1,0 +1,8 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://192.168.20.160/test?characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1/test?characterEncoding=utf-8
+    username: root
+    password: abc123
+
+ 

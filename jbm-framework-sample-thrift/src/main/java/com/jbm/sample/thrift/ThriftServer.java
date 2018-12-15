@@ -17,30 +17,30 @@ import jodd.util.ThreadUtil;
 @Service
 public class ThriftServer {
 
-	@Autowired
-	private AdditionServiceHandler additionServiceHandler;
+    @Autowired
+    private AdditionServiceHandler additionServiceHandler;
 
-	@PostConstruct
-	public void StartsimpleServer() {
+    @PostConstruct
+    public void StartsimpleServer() {
 
-		ThreadUtil.newCoreThreadPool("ths").execute(new Runnable() {
+        ThreadUtil.daemonThreadFactory("ths").newThread(new Runnable() {
 
-			@Override
-			public void run() {
-				// TODO Auto-generated method stub
-				try {
-					TServerTransport serverTransport = new TServerSocket(9090);
-					Args args = new Args(serverTransport);
-					AdditionService.Processor<AdditionServiceHandler> processor = new Processor<AdditionServiceHandler>(additionServiceHandler);
-					args.processor(processor);
-					TServer server = new TSimpleServer(args);
-					System.out.println("Starting the simple server...");
-					server.serve();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+            @Override
+            public void run() {
+                // TODO Auto-generated method stub
+                try {
+                    TServerTransport serverTransport = new TServerSocket(9090);
+                    Args args = new Args(serverTransport);
+                    AdditionService.Processor<AdditionServiceHandler> processor = new Processor<AdditionServiceHandler>(additionServiceHandler);
+                    args.processor(processor);
+                    TServer server = new TSimpleServer(args);
+                    System.out.println("Starting the simple server...");
+                    server.serve();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
 }
