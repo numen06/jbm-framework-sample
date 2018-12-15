@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>jbm-framework-sample-cloud-registry</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.jbm</groupId>
+            <artifactId>jbm-framework-cloud-registry</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
