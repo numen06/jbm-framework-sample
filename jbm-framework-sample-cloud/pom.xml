@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jbm-framework-sample</artifactId>
+        <groupId>com.jbm</groupId>
+        <version>5.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jbm-framework-sample-cloud-auth</module>
+        <module>jbm-framework-sample-cloud-getaway</module>
+        <module>jbm-framework-sample-cloud-config</module>
+        <module>jbm-framework-sample-cloud-registry</module>
+    </modules>
+    <artifactId>jbm-framework-sample-cloud</artifactId>
+
+
+</project>

@@ -29,6 +29,7 @@
         <module>jbm-framework-sample-disruptor</module>
         <module>jbm-framework-sample-fastdfs</module>
         <module>jbm-framework-sample-aio</module>
+        <module>jbm-framework-sample-cloud</module>
     </modules>
     <dependencies>
         <dependency>
